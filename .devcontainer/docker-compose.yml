@@ -1,0 +1,7 @@
+services:
+  app: 
+    image: mcr.microsoft.com/devcontainers/cpp:ubuntu-24.04
+    working_dir : /app 
+    volumes:
+      - ..:/app
+    command: sh -c "echo 'ready!!' && sleep infinity"

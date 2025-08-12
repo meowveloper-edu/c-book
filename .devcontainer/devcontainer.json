@@ -1,8 +1,9 @@
 {
 	"name": "C Development Environment",
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
+	"dockerComposeFile": "./docker-compose.yml",
+	"service": "app",
+	"workspaceFolder": "/app",
+	"postCreateCommand": "echo 'ready!!'",
 	"customizations": {
 		"vscode": {
 			"settings": {
@@ -65,7 +66,5 @@
 			},
 			"extensions": ["ms-vscode.cpptools", "ms-vscode.cpptools-extension-pack", "ms-vscode.cmake-tools", "vadimcn.vscode-lldb", "vscodevim.vim", "llam4u.nerdtree", "enkia.tokyo-night", "esbenp.prettier-vscode", "usernamehw.errorlens", "formulahendry.auto-rename-tag", "vincaslt.highlight-matching-tag", "tal7aouy.rainbow-bracket", "ms-azuretools.vscode-docker"]
 		}
-	},
-	"remoteUser": "vscode",
-	"postCreateCommand": "echo READY!!"
+	}
 }
