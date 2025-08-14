@@ -62,3 +62,42 @@
 
 **Next Steps:**
 - Ready to begin the next section of Chapter 5: **loops**, starting with the `while` statement.
+---
+
+### Session Summary: 2025-08-15
+
+**Topic:** Chapter 5 - `while` and `do-while` Loops & Project Organization
+
+**User Progress:**
+- Mastered the `while` loop by creating a program to count from 1 to 10.
+- Learned the difference between checking the condition at the start (`while`) versus the end (`do-while`) of a loop.
+- Successfully implemented a `do-while` loop to perform input validation, ensuring a user enters a positive integer.
+- Refined the input validation program by separating the input-gathering logic (the loop) from the output logic (the final `printf`).
+- Reorganized the project structure by creating directories for each chapter (`ch02`, `ch05`, etc.) and moving the corresponding `.c` files into them for better management.
+
+**Key Concepts Discussed:**
+- The syntax and use cases for `while` and `do-while` loops.
+- The concept of input validation.
+- The importance of code structure and file organization in a project.
+
+**Next Steps:**
+- Ready to begin the next section of Chapter 5: the `for` loop.
+---
+
+### Session Summary: 2025-08-15 (Part 2)
+
+**Topic:** Chapter 5 - The `for` Loop
+
+**User Progress:**
+- Successfully implemented a `for` loop to create a countdown program based on user input.
+- Demonstrated understanding of the three components of a `for` loop (initialization, condition, update).
+- Practiced using both a pre-existing variable and a dedicated loop variable as the counter, understanding the stylistic and practical benefits of using a dedicated variable.
+- Completed the fundamental loop structures (`while`, `do-while`, `for`) covered in Chapter 5.
+
+**Key Concepts Discussed:**
+- The syntax and common use cases for a `for` loop.
+- The concept of a dedicated loop variable for code clarity and safety.
+- The flexibility of the `for` statement, where components can be omitted.
+
+**Next Steps:**
+- Finished with Chapter 5. Ready to begin Chapter 6: **Basic Types**.
