@@ -101,3 +101,24 @@
 
 **Next Steps:**
 - Finished with Chapter 5. Ready to begin Chapter 6: **Basic Types**.
+---
+
+### Session Summary: 2025-08-15 (Part 3)
+
+**Topic:** Chapter 6 - Integer Types, `sizeof`, and Overflow
+
+**User Progress:**
+- Created a program to determine the memory size (in bytes) of various integer types (`int`, `short`, `long`, `unsigned`) using the `sizeof` operator.
+- Investigated integer overflow by creating a program that increments variables past their maximum values.
+- Discovered the importance of using the correct `printf` format specifiers (`%d` for signed, `%u` for unsigned) to avoid misinterpreting data.
+- Documented the concepts of overflow and format specifiers directly in the source code with comments.
+
+**Key Concepts Discussed:**
+- The `sizeof` operator.
+- The difference in range between `signed` and `unsigned` integers.
+- The concept of integer overflow and its behavior for both signed (wraps to `MIN`) and unsigned (wraps to `0`) types.
+- The role of the `<limits.h>` header file.
+- The critical importance of matching format specifiers to data types in `printf`.
+
+**Next Steps:**
+- Continue with Chapter 6, focusing on floating-point types (`float`, `double`).
