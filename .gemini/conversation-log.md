@@ -122,3 +122,38 @@
 
 **Next Steps:**
 - Continue with Chapter 6, focusing on floating-point types (`float`, `double`).
+
+---
+
+### Session Summary: 2025-08-17
+
+**Topic:** Chapter 6 - Floating-Point Types
+
+**User Progress:**
+- Created a new program, `ch06/floats.c`, to explore floating-point numbers.
+- Learned to declare and initialize `float` and `double` variables.
+- Understood the purpose of the `f` suffix for float literals (e.g., `3.14f`).
+- Used the `%f` format specifier in `printf` to display these types.
+- Investigated the precision difference between `float` and `double` by controlling the number of decimal places shown in `printf` (e.g., `%.20f`).
+- Observed how `double` maintains higher accuracy due to its larger memory footprint (64 bits vs. 32 bits).
+
+**Key Concepts Discussed:**
+- The distinction between single-precision (`float`) and double-precision (`double`) floating-point numbers.
+- The concept of type literals (`3.14` vs. `3.14f`).
+- The internal representation of floating-point numbers (IEEE 754) and how it leads to precision limitations.
+- The practical reasons for choosing `double` over `float` in most applications.
+
+---
+
+### Session Summary: 2025-08-17 (Part 2)
+
+**Topic:** Chapter 6 - Scientific Notation
+
+**User Progress:**
+- Learned to represent and initialize floating-point numbers using scientific notation (e.g., `2.997925e+08`).
+- Used the `%e` format specifier in `printf` to display numbers in scientific notation.
+- Contrasted the output of `%e` with `%f` to understand the different use cases for each format.
+
+**Key Concepts Discussed:**
+- The purpose and syntax of scientific notation in C for handling very large or very small numbers.
+- The role of the `%e` format specifier as a tool for displaying data in a compact, standardized way.
